@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build output
+dist/
+build/
+*.js.map
+
+# Prisma
+.env
+.prisma/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+*.log
+
+# Client
+client/node_modules/
+client/build/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
